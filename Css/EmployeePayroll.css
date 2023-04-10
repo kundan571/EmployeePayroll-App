@@ -181,15 +181,15 @@ select {
 }
 
 .cancelButton:hover {
-    background: red;
+    background: rgb(248, 100, 100);
 }
 
 .submitButton:hover {
-    background: green;
+    background: rgb(137, 243, 137);
 }
 
 .resetButton:hover {
-    background: blueviolet;
+    background: rgb(182, 125, 235);
 }
 
 /* Adding Media Queries */
@@ -231,4 +231,11 @@ select {
         width: 85%;
         padding: 44px 20px;
     }
+}
+
+error-output {
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
 }
