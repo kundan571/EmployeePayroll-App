@@ -118,6 +118,10 @@ label {
     margin-left: 12px;
 }
 
+.input {
+    width: 100%;
+}
+
 /* UC5 */
 select {
     padding: 12px;
