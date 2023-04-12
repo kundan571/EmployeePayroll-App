@@ -12,7 +12,7 @@
     <!-- UC1 – Employee Payroll App with Logo -->
     <header class="header-content header">
         <div class="logo-content">
-            <img src="../Assets/empicon.png" alt="" width = 3%>
+            <img src="../Assets/empicon.png" alt="" width = 5%>
             <div>
                 <span class="emp-text">EMPLOYEE</span><br>
                 <span class="emp-text emp-payroll">PAYROLL</span>
@@ -21,7 +21,7 @@
     </header>
     <!-- UC2 – Employee Payroll Form with Header and Name -->
     <div id="formId" class="form-content">
-        <form class="form" action="#" onsubmit="save()" onreset="resetForm()">
+        <form class="form" action="#" onsubmit="save(event)" onreset="resetForm()">
             <div class="form-head">
                 Employee Payroll form
             </div>
@@ -160,7 +160,7 @@
             <div class="buttonParent">
                     <a href="../Html/Home.html" type="cancle" class="button cancelButton" id="cancelButton">Cancel</a>
                 <div class="submit-reset">
-                    <button type="submit" class="button submitButton" id="submitButton">Submit</button>
+                    <button onclick="window.localStorage.href='../Html/Home.html';" type="submit" class="button submitButton" id="submitButton">Submit</button>
                     <button type="reset" class="resetButton button">Reset</button>
                 </div>
             </div>
